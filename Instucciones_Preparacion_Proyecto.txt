@@ -1,0 +1,83 @@
+
+1.- INICIALIZAR PROYECTO
+$ npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (desafio)
+version: (1.0.0)
+description: Node y Gesto de Paquetes- NPM
+entry point: (index.js)
+test command:
+git repository:
+keywords:
+author: Luis Torre Gomez
+license: (ISC)
+About to write to H:\CURSO SENCE JS 2021 - 2022\MODULOS\M6\2.- Node_y_NPM\DIA 2 19-03-2022\DESAFIO\package.json:
+
+{
+  "name": "desafio",
+  "version": "1.0.0",
+  "description": "Node y Gesto de Paquetes- NPM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Luis Torre Gomez",
+  "license": "ISC"
+}
+
+
+Is this OK? (yes) yes
+
+1.1.-Se crea el archivo "package.json"
+y en caso no tener 
+
+  "start": "node index.js",
+    "dev": "nodemon index.js"
+
+
+,se agrega  en el objeto "scrips":{}
+
+
+2.- INSTALAR DEPENDENCIAS
+
+├── axios@0.26.1
+├── chalk@4.1.0
+├── jquery@3.5.1
+├── lodash@4.17.21
+├── moment@2.27.0
+├── nodemon@2.0.4
+├── uuid@8.3.0
+
+
+ npm install axios@0.26.1 chalk@4.1.0 jquery@3.5.1 lodash@4.17.21 moment@2.27.0 uuid@8.3.0 
+
+2.*** npm install -D nodemon           ,( -D esta flag es una dependencia de DESARROLLO devDependencies (-D)
+
+2.1 .- COMPROBANDO INSTALACION DEPENDENCIAS, viendo el package.json
+
+"dependencies": {
+    "axios": "^0.26.1",
+    "chalk": "^4.1.0",
+    "jquery": "^3.5.1",
+    "lodash": "^4.17.21",
+    "moment": "^2.27.0",
+   
+    "uuid": "^8.3.0"
+  }
+
+
+  NOTA:AL CLONAR O DESCAR ESTE PROYECTO
+    $node install
+    #node index.js
+
+    ir al navegador
+    http://localhost:8080/usuarios

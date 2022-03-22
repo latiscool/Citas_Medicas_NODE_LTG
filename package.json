@@ -1,0 +1,24 @@
+{
+  "name": "desafio",
+  "version": "1.0.0",
+  "description": "Node y Gesto de Paquetes- NPM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Luis Torres Gomez",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "chalk": "^4.1.0",
+    "jquery": "^3.5.1",
+    "lodash": "^4.17.21",
+    "moment": "^2.27.0",
+    "uuid": "^8.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
